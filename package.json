@@ -1,0 +1,34 @@
+{
+  "name": "svg-sprite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "webpack": "./node_modules/.bin/webpack --progress --profile --colors --display-error-details --display-cached",
+    "dev": "./node_modules/.bin/webpack --progress --colors --watch",
+    "build": "prod build command"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marchock/svg-sprite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marchock/svg-sprite/issues"
+  },
+  "homepage": "https://github.com/marchock/svg-sprite#readme",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "browser-sync-webpack-plugin": "^1.1.0",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.22.0",
+    "webpack": "^1.13.1",
+    "webpack-svgstore-plugin": "^3.0.0"
+  },
+  "dependencies": {
+    "html-loader": "^0.4.3"
+  }
+}
